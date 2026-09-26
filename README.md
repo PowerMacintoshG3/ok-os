@@ -1,4 +1,4 @@
-# 🪐 OkOS v1.0
+#  OkOS v1.0
 
 OkOS is a **custom-engineered** operating system layer built directly on top of legacy Microsoft DOS system architectures (`MSDOS.SYS`, `IO.SYS`, and `COMMAND.COM`). It infuses retro computing environments with fortified hardware driver stacks, automated cryptographic security integrity checks, and a native assembly-level defensive watchdog layer. 
 
@@ -6,7 +6,7 @@ To handle base system deployment, hardware mapping, and memory unlocking, the pl
 
 ---
 
-## 🚀 Key Architectural Pillars
+##  Key Architectural Pillars
 
 * **Core Subsystem Abstraction:** Seamlessly mounts on top of native real-mode DOS system structures to expand internal functionality.
 * **The Gatekeeper Shield (`gatekeeper.com`):** A high-performance, self-defending 16-bit x86 Terminate-and-Stay-Resident (TSR) assembly driver. It hooks directly into the Interrupt 21h vector layer to block all deletion, renaming, or modification attempts targeting core system sectors mid-air with an immediate hardware-level "Access Denied" return.
@@ -15,7 +15,7 @@ To handle base system deployment, hardware mapping, and memory unlocking, the pl
 
 ---
 
-## 🛠️ System Roadmap & 32-Bit Protected Mode
+##  System Roadmap & 32-Bit Protected Mode
 
 While the core initialization drivers operate natively inside **16-Bit Real Mode** for maximum motherboard BIOS compatibility, OkOS breaks past the ancient 640 KB conventional RAM barrier by leveraging 32-Bit Protected Mode interfaces (DPMI). 
 
@@ -23,7 +23,7 @@ A dedicated 32-bit C++ single-window Graphical User Interface framework (`explor
 
 ---
 
-## 📜 Licensing & Attributions
+##  Licensing & Attributions
 
 This project is officially licensed under the terms of the **GNU General Public License v3.0 (GPLv3)**. See the `LICENSE.TXT` file inside the root directory for full open-source legal details.
 
